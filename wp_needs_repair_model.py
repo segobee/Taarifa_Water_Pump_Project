@@ -20,6 +20,7 @@ from sklearn.metrics import auc
 from sklearn.metrics import accuracy_score
 
 
+
 # parameters
 
 n_est=80
@@ -419,7 +420,7 @@ def train(df_train, y_train, n_est=80):
     rf_model=OneVsRestClassifier(RandomForestClassifier(n_estimators=n_est,
                                                   min_samples_leaf=min_samples,
                                                   max_depth=max_depth,
-                                                  random_state=1))
+                                                  random_state=0))
     rf_model.fit(X_train,y_full_train)
     
     return dv, rf_model
