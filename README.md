@@ -20,7 +20,8 @@ The most performing model of all the models will be built will b deployed to pro
 
 ## Project Dataset 
 
-Dataset for this project have two files. 
+Dataset for this project have two files.
+
     - `water-train.csv`: contains all the features
     - `water-label.csv`: contains the label
 
@@ -80,7 +81,7 @@ The most performing model will be deployed to production.
 
 ## Project Summary 
 
-Of the all models built, while training the models with the provided dataset, the most performing of all was `Random Forest`. Focus was placed more on the label class where water-pump-status seems functioning but will need repair. I decided to keen in to where the model would predict the water-pump points that are functioning but need repair. 
+Of all the models built, while training the models with the provided dataset, the most performing of all was `Random Forest`. Focus was placed more on the label class where water-pump-status seems functioning but will need repair. This will guide a sudden collapse of any waterpoint since prompt action is taken on any waterpoint that seem to have some trait of malfunctioning. I decided to keen in to where the model would predict the water-pump points that are functioning but need repair. 
 
 To make the model have more predictive power, I did some hypertuning work on some parameters to determine which value of a parameter works best. The final model was built on the most promising hyperparameters. 
 
