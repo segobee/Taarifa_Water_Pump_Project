@@ -87,6 +87,10 @@ To make the model have more predictive power, I did some hypertuning work on som
 
 After the final model was built, I decided to wrap the model in a `docker container`, which was later deployed on `AWS Cloud`. This repo contain all the files needed to access the model in the cloud. 
 
+## Project Deployment
+
+You can access the project app here ==> 'water-pump-project-serving-env.eba-gyvqqh2a.us-east-1.elasticbeanstalk.com'
+
 
 
 
